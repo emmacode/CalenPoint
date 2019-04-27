@@ -1,18 +1,69 @@
-@media(max-width:766px) {
-    .calendar {
-        padding-top: 30% !important
-    }
-}
-
 .calendar {
     background: #22292f !important;
     /* height used */
     background-size: cover !important;
-    height: 90vh;
+    height: 100vh;
     /* create parallex scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 7%;
+}
+
+@media(min-width:200px) and (max-width:250px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 70%;
+    }
+}
+@media(min-width:250px) and (max-width:300px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 60%;
+    }
+}
+@media(min-width:300px) and (max-width:330px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 60%;
+    }
+}
+@media(min-width:330px) and (max-width:350px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50%;
+    }
 }

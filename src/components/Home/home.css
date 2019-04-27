@@ -25,7 +25,115 @@
   color: rgba(255, 255, 255, 0.514) !important;
 }
 
-@media(max-width:766px) {
+@media(min-width:200px) and (max-width:300px) {
+  .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(194, 91, 91, 0)), url("./header-bg.svg");
+    /* height used */
+    background-size: cover !important;
+    height: 95vh;
+    /* create parallex scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70%;
+  }
+  .home-h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .home-p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.514) !important;
+  }
+}
+
+@media(min-width:300px) and (max-width:400px) {
+  .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(194, 91, 91, 0)), url("./header-bg.svg");
+    /* height used */
+    background-size: cover !important;
+    height: 95vh;
+    /* create parallex scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50%;
+  }
+  .home-h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .home-p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.514) !important;
+  }
+}
+
+@media(min-width:400px) and (max-width:500px) {
+  .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(194, 91, 91, 0)), url("./header-bg.svg");
+    /* height used */
+    background-size: cover !important;
+    height: 95vh;
+    /* create parallex scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40%;
+  }
+  .home-h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .home-p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.514) !important;
+  }
+}
+
+@media(min-width:500px) and (max-width:600px) {
+  .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(194, 91, 91, 0)), url("./header-bg.svg");
+    /* height used */
+    background-size: cover !important;
+    height: 95vh;
+    /* create parallex scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35%;
+  }
+  .home-h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .home-p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.514) !important;
+  }
+}
+
+@media(min-width:600px) and (max-width:766px) {
   .home {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(194, 91, 91, 0)), url("./header-bg.svg");
     /* height used */
