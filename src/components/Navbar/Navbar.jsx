@@ -6,21 +6,21 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-md fixed-top bg-dark">
         <div className="container">
-          <a href="#" className="navbar-brand">
+          <NavLink to="/" className="navbar-brand">
             <i className=" far fa-calendar-alt" /> CalenPoint
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler collapsed"
             type="button"
             data-toggle="collapse"
-            data-target="#calenPoint"
-            aria-controls="calenPoint"
+            data-target="#calenpoint"
+            aria-controls="calenpoint"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="calenPoint">
+          <div className="collapse navbar-collapse" id="calenpoint">
             <ul className="navbar-nav smooth-scroll ml-auto">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link text-white">

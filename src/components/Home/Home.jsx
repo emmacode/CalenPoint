@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import Image from "./image.png";
 class Home extends React.Component {
   render() {
     return (
@@ -21,7 +22,13 @@ class Home extends React.Component {
                       are, join the simple life of CalenPoint
                     </p>
                   </div>
-                  <div className="col-md-6">hello</div>
+                  <div className="col-md-6">
+                    <img
+                      src={Image}
+                      alt="calendar"
+                      className="img-fluid z-depth-5"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

@@ -57,8 +57,14 @@ class Calendar extends React.Component {
       description: event.target.value
     });
   }
-  handleSubmit() {
-    alert("Thank you " + this.state.name);
+  handleSubmit(event) {
+    event.preventDefault();
+    alert(
+      "Thank you " +
+        this.state.name +
+        " . " +
+        "I will have to stop here i can't continue creating another component am so tired"
+    );
   }
   render() {
     const { title, location, description, name } = this.state;
@@ -151,7 +157,7 @@ class Calendar extends React.Component {
                   className="btn btn-md btn-primary"
                   onClick={this.handleClick}
                 >
-                  Create <i class="fas fa-plus text-white pl-2" />
+                  Create <i className="fas fa-plus text-white pl-2" />
                 </button>
               </div>
             </div>
