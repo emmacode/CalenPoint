@@ -1,0 +1,18 @@
+
+<svg width="1999px" height="1252px" viewBox="0 0 1999 1252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="99.1544336%" y1="100%" x2="2.15409148%" y2="2.93049574%" id="linearGradient-1">
+            <stop stop-color="#273F97" offset="0%"></stop>
+            <stop stop-color="#0084FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.0-Paybit.com-Landing-Page-Illustration-2" transform="translate(-1.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="Banner-" transform="translate(1.000000, 0.000000)">
+                <g id="Backgrond" transform="translate(1001.000000, 626.000000) scale(-1, 1) translate(-1001.000000, -626.000000) ">
+                    <path d="M2002,0 L2002,1251.69526 C1925.56824,1058.40697 1697.11507,961.762819 1316.64048,961.762819 C745.928604,961.762819 912.551881,465.858508 526.432922,530.787664 C269.020283,574.073768 93.8902117,540.740435 1.04270833,430.787664 L0,0 L2002,0 Z" id="Rectangle-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
