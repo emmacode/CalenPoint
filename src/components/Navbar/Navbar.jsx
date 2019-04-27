@@ -4,7 +4,7 @@ import "./navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md fixed-top bg-dark">
+      <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div className="container">
           <NavLink to="/" className="navbar-brand">
             <i className=" far fa-calendar-alt" /> CalenPoint

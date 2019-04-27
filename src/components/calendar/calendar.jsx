@@ -18,7 +18,7 @@ class Calendar extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleTitle = this.handleTitle.bind(this);
     this.handleLocation = this.handleLocation.bind(this);
-    this.handleDecription = this.handleDescription.bind(this);
+    this.handleDescription = this.handleDescription.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleClick() {
@@ -70,7 +70,7 @@ class Calendar extends React.Component {
     const { title, location, description, name } = this.state;
     if (this.state.isCalendar) {
       return (
-        <section className="mt-5">
+        <section className="calendar">
           <div className="container">
             <div className="row">
               <div className="col-md-4">
@@ -78,7 +78,7 @@ class Calendar extends React.Component {
                   className="btn btn-md btn-primary"
                   onClick={this.handleClick}
                 >
-                  Create <i class="fas fa-plus text-white pl-2" />
+                  Create <i className="fas fa-plus text-white pl-2" />
                 </button>
               </div>
               <div className="col-md-8">
@@ -89,7 +89,7 @@ class Calendar extends React.Component {
                       <div className="md-form">
                         <input
                           type="text"
-                          className="form-control"
+                          className="form-control text-white"
                           placeholder="Add Name"
                           value={name}
                           onChange={this.handleName}
@@ -99,7 +99,7 @@ class Calendar extends React.Component {
                       <div className="md-form">
                         <input
                           type="text"
-                          className="form-control"
+                          className="form-control text-white"
                           placeholder="Add title"
                           value={title}
                           onChange={this.handleTitle}
@@ -109,7 +109,7 @@ class Calendar extends React.Component {
                       <div className="md-form">
                         <input
                           type="text"
-                          className="form-control"
+                          className="form-control text-white"
                           placeholder="Add location or conferencing"
                           value={location}
                           onChange={this.handleLocation}
@@ -125,7 +125,7 @@ class Calendar extends React.Component {
                       <div className="md-form">
                         <input
                           type="text"
-                          className="form-control"
+                          className="form-control text-white"
                           placeholder="Add description"
                           value={description}
                           onChange={this.handleDescription}
@@ -149,7 +149,7 @@ class Calendar extends React.Component {
       );
     } else {
       return (
-        <section className="mt-5">
+        <section className="calendar">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
