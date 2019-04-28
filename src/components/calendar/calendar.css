@@ -67,3 +67,59 @@
         padding-top: 50%;
     }
 }
+@media(min-width:350px) and (max-width:450px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 35%;
+    }
+}
+@media(min-width:450px) and (max-width:550px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30%;
+    }
+}
+@media(min-width:550px) and (max-width:650px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 25%;
+    }
+}
+@media(min-width:650px) and (max-width:770px) {
+    .calendar {
+        background: #22292f !important;
+        /* height used */
+        background-size: cover !important;
+        height: 100vh;
+        /* create parallex scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 20%;
+    }
+}
