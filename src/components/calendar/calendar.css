@@ -1,125 +1,69 @@
 .calendar {
-    background: #22292f !important;
-    /* height used */
-    background-size: cover !important;
-    height: 100vh;
-    /* create parallex scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 7%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 70%;
+    color: white;
 }
 
-@media(min-width:200px) and (max-width:250px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 70%;
-    }
+.calendar-header {
+    font-size: 1.6em
 }
-@media(min-width:250px) and (max-width:300px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 60%;
-    }
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
 }
-@media(min-width:300px) and (max-width:330px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 60%;
-    }
+
+.day, .empty-slot, .week-day {
+    text-align: center;
+    height: 40px
 }
-@media(min-width:330px) and (max-width:350px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 50%;
-    }
+
+.week-day {
+    font-size: 0.8em;
 }
-@media(min-width:350px) and (max-width:450px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 35%;
-    }
+
+.day {
+    font-size: 0.8em
 }
-@media(min-width:450px) and (max-width:550px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 30%;
-    }
+
+.current-day {
+    background-color: #4285f4 !important;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white
 }
-@media(min-width:550px) and (max-width:650px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 25%;
-    }
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
 }
-@media(min-width:650px) and (max-width:770px) {
-    .calendar {
-        background: #22292f !important;
-        /* height used */
-        background-size: cover !important;
-        height: 100vh;
-        /* create parallex scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 20%;
-    }
+
+.month-popup div {
+    padding: 0.3em
+}
+
+.nav-month {
+    top: 0.6em;
+    font-size: 0.8em;
+    right: 3px
+}
+
+.prev {}
+
+.next {}
+
+.editor-year {
+    max-width: 3.6em
+}
+
+.label-month, .label-year {
+    font-size: 0.6em
+}
+
+.label-month {
+    cursor: pointer
 }

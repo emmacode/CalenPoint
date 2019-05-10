@@ -1,8 +1,8 @@
 import React from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import "./calendar.css";
-class Calendar extends React.Component {
+import "./pickdate.css";
+class PickDate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -71,17 +71,17 @@ class Calendar extends React.Component {
     if (this.state.isCalendar) {
       return (
         <section className="calendar">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-4">
                 <button
-                  className="btn btn-md btn-primary"
+                  className="btn-create btn btn-md btn-primary"
                   onClick={this.handleClick}
                 >
-                  Create <i className="fas fa-plus text-white pl-2" />
+                  Create
                 </button>
               </div>
-              <div className="col-md-8">
+              <div className="col-md-4">
                 <div className="animated fadeIn mt-5 z-depth-5">
                   <div className="card-body">
                     <form className="text-center">
@@ -105,7 +105,7 @@ class Calendar extends React.Component {
                           onChange={this.handleTitle}
                         />
                       </div>
-                      {/* ADD LOACTION */}
+                      {/* ADD LOCATION */}
                       <div className="md-form">
                         <input
                           type="text"
@@ -150,11 +150,11 @@ class Calendar extends React.Component {
     } else {
       return (
         <section className="calendar">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">
                 <button
-                  className="btn btn-md btn-primary"
+                  className="btn-create btn btn-md btn-primary"
                   onClick={this.handleClick}
                 >
                   Create <i className="fas fa-plus text-white pl-2" />
@@ -167,4 +167,4 @@ class Calendar extends React.Component {
     }
   }
 }
-export default Calendar;
+export default PickDate;

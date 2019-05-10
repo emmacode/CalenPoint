@@ -29,7 +29,7 @@ class Navbar extends Component {
               </li>
             </ul>
             <div>
-              <NavLink className="btn btn-md btn-danger " to="/calendar">
+              <NavLink className="btn btn-md btn-danger " to="/appointment">
                 make a new appointment
               </NavLink>
             </div>

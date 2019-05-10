@@ -26,7 +26,7 @@ class Home extends React.Component {
                     <img
                       src={Image}
                       alt="calendar"
-                      className="img-fluid z-depth-5"
+                      className="img-fluid z-depth-5 animated fadeIn"
                     />
                   </div>
                 </div>
