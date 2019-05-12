@@ -167,7 +167,11 @@ class Calendar extends Component {
     });
     let blanks = [];
     for (let i = 0; i < this.firstDayOfMonth(); i++) {
-      blanks.push(<td className="emptySlot">{""}</td>);
+      blanks.push(
+        <td key={i * 80} className="emptySlot">
+          {""}
+        </td>
+      );
     }
     console.log("blanks:", blanks);
     let daysInMonth = [];
@@ -211,12 +215,12 @@ class Calendar extends Component {
         <table className="calendar">
           <thead>
             <tr className="calendar-header">
-              <td colSpan="5">
+              <td colSpan="6">
                 <this.MonthNav />
                 {""}
                 <this.YearNav />
               </td>
-              <td colSpan="2" className="nav-month">
+              <td className="nav-month">
                 <i
                   className="prev fas fa-angle-left"
                   onClick={e => {

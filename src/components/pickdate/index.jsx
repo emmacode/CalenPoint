@@ -70,7 +70,7 @@ class PickDate extends React.Component {
     const { title, location, description, name } = this.state;
     if (this.state.isCalendar) {
       return (
-        <section className="calendar">
+        <section className="">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-4">
@@ -149,7 +149,7 @@ class PickDate extends React.Component {
       );
     } else {
       return (
-        <section className="calendar">
+        <section className="">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">

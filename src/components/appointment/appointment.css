@@ -146,20 +146,15 @@ body {
 input {
     background-color: rgba(255, 255, 255, 0.877);
     border-radius: 5px;
-    width: 135px;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s ease-in-out
+    width: 200px;
 }
 
 input:focus {
     outline: none;
-    width: 200px;
 }
 
 ::placeholder {
     padding-left: 7px;
-    -webkit-transition: color .35s ease-in-out;
-    transition: color .35s ease-in-out
 }
 
 /* input:hover {
